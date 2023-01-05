@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/programmirovanie.jpg);
+    background-color: #878484;
+    background-repeat: no-repeat;
+    
+    color: wheat;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 90px;
+    color: red;
+}
+
+a {
+
+    font-size: 28px;
+    color: wheat;
+    cursor: pointer;
+    position: relative;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+p a {
+    color: red;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+
+    border: 1px solid wheat;
+    border-radius: 30px;
+
+    background-color: transparent;
+    color: wheat;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+title  {
+    display: none;
+}
+
+.img__Marvel {
+    width: 500px;
+}
+
+.iron__Man {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    border: 3px solid wheat;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.iron__Man div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 226px;
+    border: 3px solid wheat;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.off__decorat {
+    text-decoration: none;
+}
+
+.helper__hidden {
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    color: wheat;
+    width: 200px;
+    position: fixed;
+}

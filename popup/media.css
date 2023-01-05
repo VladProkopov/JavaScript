@@ -1,0 +1,121 @@
+/* @media (max-width: 2561px) {
+    body {
+        font-size: 30px;
+    }
+
+    li {
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        border: 3px solid purple;
+        margin-top: 10px;
+    }
+
+    .btn1 {
+        font-size: 28px;
+        height: 80px;
+        width: 200px;
+        border: 3px solid purple;
+        margin: 30px;
+    }
+
+    .aImg img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .popup__content img {
+        width: 500px;
+    }
+} */
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 22px;
+    }
+
+    li {
+        height: 30px;
+        width: 130px;
+        text-align: center;
+        border: 3px solid purple;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .btn1 {
+        font-size: 20px;
+        height: 60px;
+        width: 170px;
+        border: 3px solid purple;
+        margin: 30px;
+    }
+
+    .aImg img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .popup__content img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 769px) {
+    p {
+        text-transform: none;
+    }
+}
+
+@media (max-width: 426px) {
+    body {
+        font-size: 18px;
+    }
+
+    p {
+        text-align: center;
+        text-transform: none;
+    }
+
+    .imgA {
+        justify-content: center;
+    }
+
+    .btn1 {
+       margin-top: 15px;
+       margin-left: 133px;
+    }
+    
+    .popup__close {
+        margin-bottom: 10px;
+    }
+
+    .popup__content img {
+        width: 300px;
+    }
+
+    .popup__content form {
+        height: 120px;
+    }
+
+    .popup__content button {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 376px) {
+    .btn1 {
+        margin-left: 108px;
+    }
+}
+
+@media (max-width: 321px) {
+    .btn1 {
+        margin-left: 80px;
+    }
+
+    .popup__content {
+        min-width: 0;
+        width: 250px;
+    }
+}

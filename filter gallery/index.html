@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="gallery" id="gallery">
+        <ul class="gallery__thumbs thumbs">
+            <li><a href="https://via.placeholder.com/800/001"><img src="https://via.placeholder.com/150/001" alt="Image 1"></a></li>
+            <li><a href="https://via.placeholder.com/800/002"><img src="https://via.placeholder.com/150/002" alt="Image 2"></a></li>
+            <li><a href="https://via.placeholder.com/800/003"><img src="https://via.placeholder.com/150/003" alt="Image 3"></a></li>
+            <li><a href="https://via.placeholder.com/800/004"><img src="https://via.placeholder.com/150/004" alt="Image 4"></a></li>
+            <li><a href="https://via.placeholder.com/800/005"><img src="https://via.placeholder.com/150/005" alt="Image 5"></a></li>
+            <li><a href="https://via.placeholder.com/800/006"><img src="https://via.placeholder.com/150/006" alt="Image 6"></a></li>
+        </ul>
+        <div class="container">
+            <span class="closebtn">&times;</span>
+            <img src="" alt="" id="expandedImg">
+          </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <ul class="portfolio__filter filter">
+            <li data-filter="all" class="active">All works</li>
+            <li data-filter="sites">Web sites</li>
+            <li data-filter="design">Design</li>
+            <li data-filter="logo">Logos</li>
+        </ul>
+        <ul class="portfolio__list list">
+            <li data-filter="sites">
+                <h3>Lorem, ipsum dolor.</h3>
+                <img src="https://via.placeholder.com/150/e44" alt="">
+            </li>
+            <li data-filter="logo">
+                <h3>Dolore, ad consequatur?</h3>
+                <img src="https://via.placeholder.com/150/369" alt="">
+            </li>
+            <li data-filter="design">
+                <h3>Ut, provident quod!</h3>
+                <img src="https://via.placeholder.com/150/132" alt="">
+            </li>
+            <li data-filter="logo">
+                <h3>Minima, incidunt eius.</h3>
+                <img src="https://via.placeholder.com/150/c002" alt="">
+            </li>
+            <li data-filter="sites">
+                <h3>Natus, officia corrupti!</h3>
+                <img src="https://via.placeholder.com/150/c152" alt="">
+            </li>
+            <li data-filter="design">
+                <h3>Cumque, ea accusamus?</h3>
+                <img src="https://via.placeholder.com/150/feefe" alt="">
+            </li>
+            <li data-filter="sites">
+                <h3>Doloremque, aliquid rem.</h3>
+                <img src="https://via.placeholder.com/150/be802" alt="">
+            </li>
+            <li data-filter="design">
+                <h3>Dignissimos, veniam vel.</h3>
+                <img src="https://via.placeholder.com/150/8787" alt="">
+            </li>
+            <li data-filter="sites">
+                <h3>Sequi, blanditiis eligendi.</h3>
+                <img src="https://via.placeholder.com/150/00FA9A" alt="">
+            </li>
+        </ul>
+    </div>
+
+    <script src="filter.js"></script>
+    <script src="gallery.js"></script>
+    
+</body>
+</html>

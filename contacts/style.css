@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #252d25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+    color: #fff;
+}
+
+h2 {
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+    height: 25px;
+    width: 250px;
+
+    border: 1px solid #949090;
+    border-radius: 15px;
+
+    text-align: center;
+
+    background-color: #62D270;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+li {
+    border: 1px solid #949090;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    background-color: #4E7D55;
+}
+
+button {
+    height: 20px;
+    width: 100px;
+    margin: 5px;
+
+    font-size: 16px;
+    
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #62D270;
+    color: #ffffff;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+button:hover  {
+    background-color: #252d25;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.contacts__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 15px;
+
+    background-color:#0F4F49;
+    border: 1px solid #949090;
+    border-radius: 20px;
+}
+
+.added__contacts {
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

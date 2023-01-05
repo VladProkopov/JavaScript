@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body>
+
+    <h1>Lorem, ipsum dolor.</h1>
+
+    <p>Lorem ipsum dolor, <span data-id="content2" data-popup="content"><b> sit amet consectetur adipisicing elit. </b></span>Nulla labore inventore ut laboriosam. <a href="#">Animi perferendis saepe</a> magni itaque sed similique? Deleniti suscipit nostrum in rerum architecto est voluptate amet enim?</p>
+
+    <h2>Lorem ipsum dolor sit amet.</h2>
+
+    <div class="imgA">
+    <a class="aImg" data-popup="image" href="https:/via.placeholder.com/400/4B0082"><img src="https:/via.placeholder.com/200/4B0082" alt="#" /></a>
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quas harum minus animi maiores iusto porro ipsum voluptatum a! Sed repellendus quasi officia accusantium est non omnis voluptatum, voluptatem suscipit?</p>
+
+    <ul>
+        <li>Item 1</li>
+        <li><a data-popup="video" href="https://youtu.be/BLdPwkRj9F8">Wath video</a></li>
+        <li>Item 3</li>
+    </ul>
+
+    <button class="btn1" data-id="content1" data-popup="content">Feedback form</button>
+
+    <p>Consectetur quibusdam, fugiat perferendis quis totam expedita placeat repellat magni cupiditate earum distinctio beatae, qui tempora! Deserunt, voluptatum eaque perferendis laboriosam necessitatibus delectus ullam nemo reiciendis commodi debitis error temporibus.</p>
+
+
+    <div id="content1" style="display: none; visibility: hidden; opacity: 0; height: 0;">
+        <form >
+            <input type="text" name="name" placeholder="Your name">
+            <hr>
+            <input type="tel" name="phone" placeholder="your phone">
+            <hr>
+            <button>Send</button>
+        </form>
+    </div>
+
+    <div id="content2" style="display: none; visibility: hidden; opacity: 0; height: 0;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, vitae.
+    </div>
+
+
+    <div style="display: none;" class="popup">
+        <div class="popup__wrapper">
+
+            <button class="popup__close">X</button>
+            <div class="popup__content">
+                Lorem, ipsum.
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
